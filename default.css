@@ -1,0 +1,170 @@
+body {
+	background: #659A66 url(images/img1.gif) repeat-x left top;
+	margin-top: 124px;
+	text-align: justify;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+
+h2, h3 {
+	margin-top: 0px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.bg1 {
+	background: #303030;
+	height: 60px;
+	width: 385px;
+}
+
+/* Header */
+
+#header {
+	width: 775px;
+	height: 60px;
+	margin: 0px auto;
+}
+
+#header h1 {
+	float: left;
+	margin: 0px;
+	padding-top: 20px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	letter-spacing: -3px;
+	color: #000;
+}
+
+#header h2 {
+	margin: 0px;
+	padding-top: 42px;
+	font-size: 14px;
+	letter-spacing: -1px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #1E2F4D;
+}
+
+/* Content */
+
+#content {
+	width: 775px;
+	margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+}
+
+#content h1, #content h2 {
+	margin-bottom: 0;
+	padding: 10px 10px 10px 20px;
+	line-height: 20px;
+	background: #303030 url(images/img2.gif) no-repeat left center;
+	text-transform: uppercase;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif bolder;
+	color: #659A66;
+}
+
+#content ul {
+	margin: 0;
+	padding-left: 15px;
+	list-style: none;
+}
+
+#content li {
+	margin: 10px 0 1em 0;
+	color: #324A32;
+}
+
+#content a {
+	color: #324A32;
+	text-decoration: none;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+#content h2 {
+	font-weight: bold;
+}
+
+#colOne {
+	float: left;
+	width: 150px;
+	margin-top: 60px;
+}
+
+#colTwo {
+	float: left;
+	width: 600px;
+	margin: 55px 0px 60px 20px;
+	padding: 0px 0px;
+	background: #303030;
+	color: #858585;
+}
+
+#colTwo p {
+	padding: 0px 15px 15px 15px;
+}
+
+#colTwo .first h2 {
+	border-top: 5px solid #659A66;
+}
+
+#colTwo h2 {
+	border-top: 10px solid #659A66;
+	border-bottom: 1px solid #659A66;
+}
+
+#colThree {
+	float: right;
+	margin-top: -5px;
+	width: 200px;
+	padding-right: 15px;
+}
+
+#colFour {
+	float: right;
+	width: 550px;
+	margin: 0px;
+	padding: 0px 0px;
+	background: #303030;
+	color: #858585;
+}
+
+#colFour p {
+	padding: 0px 15px 15px 15px;
+}
+
+#colFour .first h2 {
+	border-top: 5px solid #659A66;
+}
+
+#colFour h2 {
+	border-top: 10px solid #659A66;
+	border-bottom: 1px solid #659A66;
+}
+
+/* Footer */
+
+#footer {
+	width: 775px;
+	height: 40px;
+	margin: 0px auto;
+	padding-top: 20px;
+	background: #303030;
+}
+
+#footer p {
+	margin: 0px;
+	text-align: center;
+	color: #757575;
+}
+
+#footer a {
+	color: #545454;
+}
